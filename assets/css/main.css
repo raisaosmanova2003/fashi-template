@@ -1,0 +1,886 @@
+.myFlex1, .woman_right_top, .deal .week .week_items, .the_blog .blog_cards, .header_top_middle_icons ul, .header_bottom_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.myFlex2, .header_top, .header_top_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.myFlex, .header_top_left, .header_top_right, .header_top_right_flag, .header_top_right_login, .header_bottom, .header_bottom_middle {
+  display: flex;
+  align-items: center; }
+
+.myFlex-x, .image, .woman, .the_blog .blog_card_body_items, .benefit_items, .partner_logos .logos {
+  display: flex;
+  justify-content: center; }
+
+.myFont {
+  font-family: 'Courier New', Courier, monospace; }
+
+.font {
+  font-family: "Muli", sans-serif; }
+
+.background-img, .deal {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; }
+
+.black {
+  margin-top: 5rem;
+  background-image: url(https://preview.colorlib.com/theme/fashi/img/hero-1.jpg.webp);
+  height: 450px;
+  padding-top: 210px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .black_friday {
+    position: relative; }
+    .black_friday_left {
+      font-size: 30px;
+      position: absolute;
+      left: 40px;
+      top: 45%;
+      color: #252525; }
+    .black_friday_right {
+      font-size: 30px;
+      position: absolute;
+      right: 40px;
+      top: 45%;
+      color: #252525;
+      position: absolute; }
+    .black_friday_sale {
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      padding-top: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 70px;
+      position: absolute;
+      left: 47%;
+      bottom: -3rem;
+      background: #e7ab3c; }
+      .black_friday_sale h2 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase; }
+  .black_friday_title {
+    left: 7rem;
+    bottom: -10rem;
+    line-height: 1.5;
+    position: absolute; }
+    .black_friday_title span {
+      display: inline-block;
+      color: #e7ab3c;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      line-height: 28px; }
+    .black_friday_title h1 {
+      color: #252525;
+      font-size: 72px;
+      font-weight: 700;
+      margin-bottom: 6px; }
+    .black_friday_title p {
+      font-size: 16px;
+      font-family: "Muli", sans-serif;
+      color: #6e6e6e;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 0 0 15px 0; }
+    .black_friday_title a {
+      background-color: #e7ab3c;
+      padding: 12px 30px;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+.image {
+  gap: 50px; }
+  .image .img {
+    position: relative; }
+    .image .img img {
+      width: 416px; }
+  .image_title {
+    position: absolute;
+    color: #252525;
+    font-weight: 700;
+    padding: 15px 30px;
+    background: #ffffff;
+    border-radius: 2px;
+    top: 50%;
+    left: 40%; }
+
+.women {
+  margin-top: 4rem; }
+
+.woman {
+  flex-wrap: wrap; }
+  .woman_right {
+    margin: 3.5rem 0px 0px 1.5rem; }
+  .woman_left_image {
+    position: relative; }
+    .woman_left_image img {
+      width: 327px;
+      height: 620px; }
+    .woman_left_image_title {
+      text-align: center;
+      position: absolute;
+      top: 45%;
+      left: 20%; }
+      .woman_left_image_title h2 {
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 18px; }
+      .woman_left_image_title a {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        display: inline-block; }
+  .woman_right_top {
+    padding-bottom: 3rem; }
+    .woman_right_top ul {
+      display: flex;
+      gap: 20px; }
+      .woman_right_top ul .active {
+        text-decoration: underline;
+        color: #171717; }
+    .woman_right_top li {
+      display: inline-block;
+      font-size: 20px;
+      color: #b2b2b2;
+      margin-right: 22px;
+      cursor: pointer; }
+  .woman_right_bottom {
+    padding-left: 1.5rem;
+    display: flex;
+    position: relative; }
+    .woman_right_bottom .woman_left_icon {
+      position: absolute;
+      font-size: 30px;
+      left: 0px;
+      top: 70%;
+      color: #252525; }
+    .woman_right_bottom .woman_right_icon {
+      position: absolute;
+      font-size: 30px;
+      right: 30px;
+      top: 70%;
+      color: #252525; }
+    .woman_right_bottom_title {
+      text-align: center; }
+      .woman_right_bottom_title span {
+        font-size: 20px;
+        color: #b2b2b2;
+        cursor: pointer; }
+      .woman_right_bottom_title h5 {
+        color: #252525;
+        font-size: 18px;
+        line-height: 1.2;
+        font-family: "Muli", sans-serif; }
+      .woman_right_bottom_title h4 {
+        color: #e7ab3c;
+        font-size: 20px;
+        font-weight: 700; }
+    .woman_right_bottom_card {
+      width: 330px;
+      height: 200px;
+      display: flex; }
+    .woman_right_bottom_img img {
+      width: 100%; }
+
+.deal {
+  background-image: url(https://preview.colorlib.com/theme/fashi/img/time-bg.jpg.webp);
+  height: 540px;
+  padding: 80px 0px 80px 0px;
+  margin: 5rem 65px 0px 65px; }
+  .deal .week {
+    padding-top: 4rem;
+    width: 60%;
+    text-align: center; }
+    .deal .week_title h2 {
+      color: #252525;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 38px;
+      font-family: "Muli", sans-serif; }
+    .deal .week_title p {
+      color: #6e6e6e;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      font-family: "Muli", sans-serif; }
+    .deal .week_title .week_price {
+      margin-top: 25px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #e7ab3c; }
+      .deal .week_title .week_price span {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6e6e6e; }
+    .deal .week .week_items {
+      gap: 15px;
+      text-align: center;
+      margin: 20px 35px 50px 35px; }
+      .deal .week .week_items .week_item {
+        width: 60px;
+        height: 70px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 15px 10px 15px 10px;
+        border-radius: 5px; }
+        .deal .week .week_items .week_item span {
+          color: #e7ab3c;
+          font-size: 35px;
+          font-weight: 700;
+          line-height: 1.2;
+          font-family: "Muli", sans-serif; }
+        .deal .week .week_items .week_item p {
+          color: #6e6e6e;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          font-family: "Muli", sans-serif; }
+    .deal .week a {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 12px 30px;
+      color: #ffffff;
+      background: #e7ab3c;
+      text-transform: uppercase; }
+
+.fotos {
+  padding-top: 5rem; }
+  .fotos .images {
+    display: flex;
+    margin: 0px; }
+    .fotos .images img {
+      display: flex;
+      margin: 0px;
+      width: 253px;
+      height: 320px; }
+
+.the_blog {
+  padding-top: 4rem; }
+  .the_blog .blog {
+    text-align: center; }
+    .the_blog .blog_title {
+      padding-bottom: 2.5rem; }
+      .the_blog .blog_title h2 {
+        color: #252525;
+        font-size: 36px;
+        font-weight: 700; }
+    .the_blog .blog_card {
+      height: 460px;
+      width: 350px;
+      border-color: transparent; }
+      .the_blog .blog_card_img {
+        width: 100%; }
+        .the_blog .blog_card_img img {
+          width: 100%; }
+      .the_blog .blog_card_body {
+        padding-top: 25px; }
+        .the_blog .blog_card_body_items {
+          margin-left: 15px;
+          margin-bottom: 8px;
+          justify-content: left;
+          gap: 15px; }
+          .the_blog .blog_card_body_items i {
+            color: #e7ab3c; }
+          .the_blog .blog_card_body_items span {
+            font-size: 16px;
+            color: #a2a1a1; }
+        .the_blog .blog_card_body_titles h4 {
+          margin-left: 15px;
+          font-size: 24px;
+          color: #252525;
+          font-weight: 700;
+          line-height: 30px;
+          margin-bottom: 16px;
+          text-align: left; }
+        .the_blog .blog_card_body_titles p {
+          text-align: left;
+          font-size: 16px;
+          font-family: "Muli", sans-serif;
+          color: #636363;
+          font-weight: 400;
+          line-height: 26px;
+          margin-left: 15px; }
+    .the_blog .blog_cards {
+      gap: 30px; }
+
+.benefit {
+  margin-top: 4rem; }
+  .benefit_items .benefit_item {
+    border: 1px solid #F3F4F0;
+    gap: 20px;
+    padding: 30px 55px 25px 55px;
+    display: flex;
+    width: 300px;
+    height: 40px; }
+    .benefit_items .benefit_item_right h6 {
+      color: #252525;
+      line-height: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 16px; }
+    .benefit_items .benefit_item_right p {
+      color: #252525;
+      line-height: 20px;
+      font-size: 16px;
+      font-family: "Muli", sans-serif;
+      font-weight: 400; }
+
+.partner_logos {
+  background: #303030;
+  padding-top: 38px;
+  margin-top: 4rem;
+  height: 121px; }
+  .partner_logos .logos {
+    padding-top: 15px;
+    gap: 6rem;
+    align-items: center; }
+
+.myFlex1, .woman_right_top, .deal .week .week_items, .the_blog .blog_cards, .header_top_middle_icons ul, .header_bottom_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.myFlex2, .header_top, .header_top_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.myFlex, .header_top_left, .header_top_right, .header_top_right_flag, .header_top_right_login, .header_bottom, .header_bottom_middle {
+  display: flex;
+  align-items: center; }
+
+.myFlex-x, .image, .woman, .the_blog .blog_card_body_items, .benefit_items, .partner_logos .logos {
+  display: flex;
+  justify-content: center; }
+
+.myFont {
+  font-family: 'Courier New', Courier, monospace; }
+
+.font {
+  font-family: "Muli", sans-serif; }
+
+.background-img, .deal {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.myFlex1, .woman_right_top, .deal .week .week_items, .the_blog .blog_cards, .header_top_middle_icons ul, .header_bottom_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.myFlex2, .header_top, .header_top_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.myFlex, .header_top_left, .header_top_right, .header_top_right_flag, .header_top_right_login, .header_bottom, .header_bottom_middle {
+  display: flex;
+  align-items: center; }
+
+.myFlex-x, .image, .woman, .the_blog .blog_card_body_items, .benefit_items, .partner_logos .logos {
+  display: flex;
+  justify-content: center; }
+
+.myFont {
+  font-family: 'Courier New', Courier, monospace; }
+
+.font {
+  font-family: "Muli", sans-serif; }
+
+.background-img, .deal {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; }
+
+.header_top {
+  gap: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 4rem; }
+  .header_top_left {
+    justify-content: right;
+    gap: 10px;
+    height: 100%;
+    border-right: 1px solid #e5e5e5;
+    width: 36%;
+    padding-right: 10px; }
+  .header_top_middle {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #e5e5e5; }
+    .header_top_middle_icons {
+      padding-right: 10px; }
+      .header_top_middle_icons ul {
+        gap: 15px; }
+        .header_top_middle_icons ul a {
+          color: black; }
+  .header_top_right {
+    height: 100%;
+    text-align: left;
+    width: 50%; }
+    .header_top_right_flag {
+      gap: 10px;
+      border-right: 1px solid #e5e5e5;
+      height: 100%;
+      width: 30%;
+      justify-content: end;
+      padding-right: 10px; }
+    .header_top_right_login {
+      gap: 10px;
+      height: 100%;
+      width: 100%;
+      padding-left: 15px; }
+
+.header_bottom {
+  padding-top: 3rem;
+  justify-content: space-around; }
+  .header_bottom_middle {
+    border: 1px solid #e5e5e5;
+    width: 33.3%; }
+    .header_bottom_middle_btn button {
+      justify-content: start;
+      width: 100%;
+      border: none;
+      padding-left: 23px;
+      padding-top: 11px;
+      padding-bottom: 13px;
+      padding-right: 60px;
+      font-size: 16px;
+      color: #3a0f0f; }
+    .header_bottom_middle_input {
+      position: relative; }
+      .header_bottom_middle_input input {
+        border: none;
+        font-size: 16px;
+        color: #d1d1d1;
+        padding-left: 20px; }
+      .header_bottom_middle_input_search button {
+        bottom: -13px;
+        right: -55px;
+        position: absolute;
+        font-size: 16px;
+        color: #ffffff;
+        position: absolute;
+        border: 1px solid #e7ab3c;
+        background: #e7ab3c;
+        padding: 12px 16px 12px;
+        cursor: pointer; }
+  .header_bottom .header_bottom_right ul {
+    display: flex;
+    gap: 20px;
+    font-size: 20px; }
+
+.myFlex1, .woman_right_top, .deal .week .week_items, .the_blog .blog_cards, .header_top_middle_icons ul, .header_bottom_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.myFlex2, .header_top, .header_top_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.myFlex, .header_top_left, .header_top_right, .header_top_right_flag, .header_top_right_login, .header_bottom, .header_bottom_middle {
+  display: flex;
+  align-items: center; }
+
+.myFlex-x, .image, .woman, .the_blog .blog_card_body_items, .benefit_items, .partner_logos .logos {
+  display: flex;
+  justify-content: center; }
+
+.myFont {
+  font-family: 'Courier New', Courier, monospace; }
+
+.font {
+  font-family: "Muli", sans-serif; }
+
+.background-img, .deal {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; }
+
+.black {
+  margin-top: 5rem;
+  background-image: url(https://preview.colorlib.com/theme/fashi/img/hero-1.jpg.webp);
+  height: 450px;
+  padding-top: 210px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .black_friday {
+    position: relative; }
+    .black_friday_left {
+      font-size: 30px;
+      position: absolute;
+      left: 40px;
+      top: 45%;
+      color: #252525; }
+    .black_friday_right {
+      font-size: 30px;
+      position: absolute;
+      right: 40px;
+      top: 45%;
+      color: #252525;
+      position: absolute; }
+    .black_friday_sale {
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      padding-top: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 70px;
+      position: absolute;
+      left: 47%;
+      bottom: -3rem;
+      background: #e7ab3c; }
+      .black_friday_sale h2 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase; }
+  .black_friday_title {
+    left: 7rem;
+    bottom: -10rem;
+    line-height: 1.5;
+    position: absolute; }
+    .black_friday_title span {
+      display: inline-block;
+      color: #e7ab3c;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      line-height: 28px; }
+    .black_friday_title h1 {
+      color: #252525;
+      font-size: 72px;
+      font-weight: 700;
+      margin-bottom: 6px; }
+    .black_friday_title p {
+      font-size: 16px;
+      font-family: "Muli", sans-serif;
+      color: #6e6e6e;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 0 0 15px 0; }
+    .black_friday_title a {
+      background-color: #e7ab3c;
+      padding: 12px 30px;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+.image {
+  gap: 50px; }
+  .image .img {
+    position: relative; }
+    .image .img img {
+      width: 416px; }
+  .image_title {
+    position: absolute;
+    color: #252525;
+    font-weight: 700;
+    padding: 15px 30px;
+    background: #ffffff;
+    border-radius: 2px;
+    top: 50%;
+    left: 40%; }
+
+.women {
+  margin-top: 4rem; }
+
+.woman {
+  flex-wrap: wrap; }
+  .woman_right {
+    margin: 3.5rem 0px 0px 1.5rem; }
+  .woman_left_image {
+    position: relative; }
+    .woman_left_image img {
+      width: 327px;
+      height: 620px; }
+    .woman_left_image_title {
+      text-align: center;
+      position: absolute;
+      top: 45%;
+      left: 20%; }
+      .woman_left_image_title h2 {
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 18px; }
+      .woman_left_image_title a {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        display: inline-block; }
+  .woman_right_top {
+    padding-bottom: 3rem; }
+    .woman_right_top ul {
+      display: flex;
+      gap: 20px; }
+      .woman_right_top ul .active {
+        text-decoration: underline;
+        color: #171717; }
+    .woman_right_top li {
+      display: inline-block;
+      font-size: 20px;
+      color: #b2b2b2;
+      margin-right: 22px;
+      cursor: pointer; }
+  .woman_right_bottom {
+    padding-left: 1.5rem;
+    display: flex;
+    position: relative; }
+    .woman_right_bottom .woman_left_icon {
+      position: absolute;
+      font-size: 30px;
+      left: 0px;
+      top: 70%;
+      color: #252525; }
+    .woman_right_bottom .woman_right_icon {
+      position: absolute;
+      font-size: 30px;
+      right: 30px;
+      top: 70%;
+      color: #252525; }
+    .woman_right_bottom_title {
+      text-align: center; }
+      .woman_right_bottom_title span {
+        font-size: 20px;
+        color: #b2b2b2;
+        cursor: pointer; }
+      .woman_right_bottom_title h5 {
+        color: #252525;
+        font-size: 18px;
+        line-height: 1.2;
+        font-family: "Muli", sans-serif; }
+      .woman_right_bottom_title h4 {
+        color: #e7ab3c;
+        font-size: 20px;
+        font-weight: 700; }
+    .woman_right_bottom_card {
+      width: 330px;
+      height: 200px;
+      display: flex; }
+    .woman_right_bottom_img img {
+      width: 100%; }
+
+.deal {
+  background-image: url(https://preview.colorlib.com/theme/fashi/img/time-bg.jpg.webp);
+  height: 540px;
+  padding: 80px 0px 80px 0px;
+  margin: 5rem 65px 0px 65px; }
+  .deal .week {
+    padding-top: 4rem;
+    width: 60%;
+    text-align: center; }
+    .deal .week_title h2 {
+      color: #252525;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 38px;
+      font-family: "Muli", sans-serif; }
+    .deal .week_title p {
+      color: #6e6e6e;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      font-family: "Muli", sans-serif; }
+    .deal .week_title .week_price {
+      margin-top: 25px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #e7ab3c; }
+      .deal .week_title .week_price span {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6e6e6e; }
+    .deal .week .week_items {
+      gap: 15px;
+      text-align: center;
+      margin: 20px 35px 50px 35px; }
+      .deal .week .week_items .week_item {
+        width: 60px;
+        height: 70px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 15px 10px 15px 10px;
+        border-radius: 5px; }
+        .deal .week .week_items .week_item span {
+          color: #e7ab3c;
+          font-size: 35px;
+          font-weight: 700;
+          line-height: 1.2;
+          font-family: "Muli", sans-serif; }
+        .deal .week .week_items .week_item p {
+          color: #6e6e6e;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          font-family: "Muli", sans-serif; }
+    .deal .week a {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 12px 30px;
+      color: #ffffff;
+      background: #e7ab3c;
+      text-transform: uppercase; }
+
+.fotos {
+  padding-top: 5rem; }
+  .fotos .images {
+    display: flex;
+    margin: 0px; }
+    .fotos .images img {
+      display: flex;
+      margin: 0px;
+      width: 253px;
+      height: 320px; }
+
+.the_blog {
+  padding-top: 4rem; }
+  .the_blog .blog {
+    text-align: center; }
+    .the_blog .blog_title {
+      padding-bottom: 2.5rem; }
+      .the_blog .blog_title h2 {
+        color: #252525;
+        font-size: 36px;
+        font-weight: 700; }
+    .the_blog .blog_card {
+      height: 460px;
+      width: 350px;
+      border-color: transparent; }
+      .the_blog .blog_card_img {
+        width: 100%; }
+        .the_blog .blog_card_img img {
+          width: 100%; }
+      .the_blog .blog_card_body {
+        padding-top: 25px; }
+        .the_blog .blog_card_body_items {
+          margin-left: 15px;
+          margin-bottom: 8px;
+          justify-content: left;
+          gap: 15px; }
+          .the_blog .blog_card_body_items i {
+            color: #e7ab3c; }
+          .the_blog .blog_card_body_items span {
+            font-size: 16px;
+            color: #a2a1a1; }
+        .the_blog .blog_card_body_titles h4 {
+          margin-left: 15px;
+          font-size: 24px;
+          color: #252525;
+          font-weight: 700;
+          line-height: 30px;
+          margin-bottom: 16px;
+          text-align: left; }
+        .the_blog .blog_card_body_titles p {
+          text-align: left;
+          font-size: 16px;
+          font-family: "Muli", sans-serif;
+          color: #636363;
+          font-weight: 400;
+          line-height: 26px;
+          margin-left: 15px; }
+    .the_blog .blog_cards {
+      gap: 30px; }
+
+.benefit {
+  margin-top: 4rem; }
+  .benefit_items .benefit_item {
+    border: 1px solid #F3F4F0;
+    gap: 20px;
+    padding: 30px 55px 25px 55px;
+    display: flex;
+    width: 300px;
+    height: 40px; }
+    .benefit_items .benefit_item_right h6 {
+      color: #252525;
+      line-height: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 16px; }
+    .benefit_items .benefit_item_right p {
+      color: #252525;
+      line-height: 20px;
+      font-size: 16px;
+      font-family: "Muli", sans-serif;
+      font-weight: 400; }
+
+.partner_logos {
+  background: #303030;
+  padding-top: 38px;
+  margin-top: 4rem;
+  height: 121px; }
+  .partner_logos .logos {
+    padding-top: 15px;
+    gap: 6rem;
+    align-items: center; }

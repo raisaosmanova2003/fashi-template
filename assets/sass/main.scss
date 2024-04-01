@@ -1,0 +1,17 @@
+// ? Pages
+@import "./pages/home";
+
+// ? utils
+@import "./utils/extend";
+@import "./utils/variables";
+@import "./utils/mixins";
+
+// ?base
+
+@import "./base/reset";
+
+// ? layout 
+@import "./layout/header";
+
+// ?pages
+@import "./pages/home";

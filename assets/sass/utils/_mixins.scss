@@ -1,0 +1,28 @@
+@mixin button($bgcolor,$padding,$color) {
+    background-color: $bgcolor;
+    padding: $padding;
+    color: $color;
+    
+}
+@mixin margin($top,$bottom,$left,$right) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+    margin-left:$left ;
+    margin-right: $right;
+}
+@mixin padding ($top,$bottom,$left,$right) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+    padding-left:$left ;
+    padding-right: $right;
+}
+@mixin size ($width,$height) {
+    width: $width;
+    height: $height;
+}
+@mixin fonts ($fontSize,$fontW,$lineH,$fontfam) {
+    font-size: $fontSize;
+    font-weight: $fontW;
+    line-height: $lineH;
+    font-family: $fontfam;
+}

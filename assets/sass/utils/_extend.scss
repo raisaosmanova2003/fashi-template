@@ -1,0 +1,29 @@
+.myFlex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myFlex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myFlex{
+    display:flex;
+    align-items: center;
+}
+.myFlex-x{
+    display:flex;
+    justify-content: center;
+}
+.myFont {
+    font-family: 'Courier New', Courier, monospace;
+}
+.font {
+    font-family: "Muli", sans-serif;
+}
+.background-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
